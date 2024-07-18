@@ -86,11 +86,15 @@ h5 {
     min-height: 100vh;
     margin-top: -100px;
     padding: 250px 0;
-    background-image: url('./images/welcome-bg.jpg');
+    /* background-image: url('./images/welcome-bg.jpg'); */
+    background-image: linear-gradient(rgba(204, 204, 207, 0.5), rgba(0, 0, 0, 0.8)),
+                  url('./images/welcome-bg.jpg');
+    /* background-color: rgba(0, 0, 0, 0.5); */
     background-repeat: none;
     background-size: cover;
     background-position: center;
 }
+
 
 .welcome-text {
     width: 550px;
